@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf0f0;
+}
+
+.sign-in {
+    width: fit-content;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 0.325rem rgba(255, 255, 0, 0.3);
+}
+
+img {
+    width: 200px;
+}
+
+.form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+.sub-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.username, .password-box {
+    width: 250px;
+    background-color: #fcf0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.password-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.vision {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn {
+    width: 250px;
+    font-weight: 500;
+    border: 0;
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0.325rem rgba(255, 255, 0, 0.436);
+}
